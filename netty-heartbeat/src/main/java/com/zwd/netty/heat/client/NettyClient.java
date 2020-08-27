@@ -16,7 +16,7 @@ import java.io.IOException;
 public class NettyClient {
 
     public static String host = "127.0.0.1";  //ip地址
-    public static int port = 6789;          //端口
+    public static int port = 8080;          //端口
     /// 通过nio方式来接收连接和处理连接
     private static EventLoopGroup group = new NioEventLoopGroup();
     private static Bootstrap b = new Bootstrap();

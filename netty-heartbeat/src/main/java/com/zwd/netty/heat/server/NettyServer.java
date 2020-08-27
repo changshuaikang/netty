@@ -8,7 +8,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 
 
 public class NettyServer {
-    private static final int port = 6789; //设置服务端端口
+    private static final int port = 8080; //设置服务端端口
     private static  EventLoopGroup group = new NioEventLoopGroup();   // 通过nio方式来接收连接和处理连接
     private static  ServerBootstrap b = new ServerBootstrap();
 

@@ -11,7 +11,7 @@ import io.netty.handler.codec.http.HttpResponseEncoder;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 
-
+// 初始化注册的通道
 public class NettyServerFilter extends ChannelInitializer<SocketChannel> {
 
     @Override
